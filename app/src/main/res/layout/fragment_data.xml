@@ -1,0 +1,66 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#FFF3E6"
+    tools:context=".DataFragment" >
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_margin="20dp"
+        android:orientation="vertical">
+
+        <ImageView
+            android:id="@+id/imageView2"
+            android:layout_width="match_parent"
+            android:layout_height="130dp"
+            android:layout_weight="2"
+            app:srcCompat="@drawable/img1" />
+
+        <TextView
+            android:id="@+id/textView2"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_margin="10px"
+            android:layout_weight="1"
+            android:text="Абиссинская кошка – короткошерстная порода, имеющая древнее происхождение. Это очень умные животные, в которых удивительным образом сочетаются величественные повадки, любовь к хозяину и подвижность. Они преданы, уравновешены, готовы дарить и получать внимание. Питомцы имеют хорошее здоровье, недороги в содержании. Абиссины подходят для семей с детьми, активных позитивных людей."
+            android:textSize="11sp" />
+
+        <ImageView
+            android:id="@+id/imageView6"
+            android:layout_width="match_parent"
+            android:layout_height="130dp"
+            android:layout_weight="2"
+            app:srcCompat="@drawable/img2" />
+
+        <TextView
+            android:id="@+id/textView6"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_margin="10dp"
+            android:layout_weight="1"
+            android:text="Американский бобтейл – порода короткохвостых кошек. Производит впечатление дикого животного, что резко контрастирует с его абсолютно не агрессивным, добродушным характером. Кошки этой породы мускулистые, крепкие, обычно среднего размера, но есть и достаточно крупные особи. Американские бобтейлы – умные и привязанные к человеку домашние животные. Порода делится на длинношерстных и короткошерстных. "
+            android:textSize="11sp" />
+
+        <ImageView
+            android:id="@+id/imageView8"
+            android:layout_width="match_parent"
+            android:layout_height="130dp"
+            android:layout_weight="2"
+            app:srcCompat="@drawable/img3" />
+
+        <TextView
+            android:id="@+id/textView8"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_margin="10dp"
+            android:layout_weight="2"
+            android:text="Аравийский мау – ласковый и любознательный «восточный гость», к которому не потребуется особый подход. Достаточно только понять и принять его маленькие породные слабости: любовь к охоте, страсть к покорению высот и тягу к ежедневным прогулкам. Уравновешенный и не страдающий чрезмерной «разговорчивостью», мау никогда не превратится в питомца-надоеду. Так что если вы одинаково устали как от слишком назойливых, так и от чересчур независимых пород, с этим товарищем определенно стоит познакомиться."
+            android:textSize="11sp" />
+
+    </LinearLayout>
+
+</FrameLayout>

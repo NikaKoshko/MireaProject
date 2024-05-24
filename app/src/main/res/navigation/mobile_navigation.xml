@@ -1,0 +1,75 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/mobile_navigation"
+    app:startDestination="@+id/nav_home">
+
+    <fragment
+        android:id="@+id/nav_home"
+        android:name="ru.mirea.lukaninava.mireaproject.ui.home.HomeFragment"
+        android:label="@string/menu_home"
+        tools:layout="@layout/fragment_home" />
+
+    <fragment
+        android:id="@+id/nav_gallery"
+        android:name="ru.mirea.lukaninava.mireaproject.ui.gallery.GalleryFragment"
+        android:label="@string/menu_gallery"
+        tools:layout="@layout/fragment_gallery" />
+
+    <fragment
+        android:id="@+id/nav_slideshow"
+        android:name="ru.mirea.lukaninava.mireaproject.ui.slideshow.SlideshowFragment"
+        android:label="@string/menu_slideshow"
+        tools:layout="@layout/fragment_slideshow" />
+    <fragment
+        android:id="@+id/nav_data"
+        android:name="ru.mirea.lukaninava.mireaproject.DataFragment"
+        android:label="fragment_data"
+        tools:layout="@layout/fragment_data" />
+    <fragment
+        android:id="@+id/nav_webView"
+        android:name="ru.mirea.lukaninava.mireaproject.WebViewFragment"
+        android:label="fragment_web_view"
+        tools:layout="@layout/fragment_web_view" />
+    <fragment
+        android:id="@+id/nav_downloadfragment"
+        android:name="ru.mirea.lukaninava.mireaproject.DownloadFragment"
+        android:label="Download"
+        tools:layout="@layout/fragment_download" />
+    <fragment
+        android:id="@+id/nav_light"
+        android:name="ru.mirea.lukaninava.mireaproject.LightFragment"
+        android:label="fragment_light"
+        tools:layout="@layout/fragment_light" />
+    <fragment
+        android:id="@+id/nav_acc"
+        android:name="ru.mirea.lukaninava.mireaproject.AccFragment"
+        android:label="fragment_acc"
+        tools:layout="@layout/fragment_acc" />
+    <fragment
+        android:id="@+id/nav_rec"
+        android:name="ru.mirea.lukaninava.mireaproject.RecFragment"
+        android:label="fragment_rec"
+        tools:layout="@layout/fragment_rec" />
+    <fragment
+        android:id="@+id/nav_profile"
+        android:name="ru.mirea.lukaninava.mireaproject.ProfileFragment"
+        android:label="fragment_profile"
+        tools:layout="@layout/fragment_profile" />
+    <fragment
+        android:id="@+id/nav_file"
+        android:name="ru.mirea.lukaninava.mireaproject.FileFragment"
+        android:label="fragment_file"
+        tools:layout="@layout/fragment_file" />
+    <fragment
+        android:id="@+id/convertFragment"
+        android:name="ru.mirea.lukaninava.mireaproject.ConvertFragment"
+        android:label="fragment_convert"
+        tools:layout="@layout/fragment_convert" />
+    <fragment
+        android:id="@+id/nav_map"
+        android:name="ru.mirea.lukaninava.mireaproject.MapFragment"
+        android:label="fragment_map"
+        tools:layout="@layout/fragment_map" />
+</navigation>

@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:showIn="navigation_view">
+
+    <group android:checkableBehavior="single">
+        <item
+            android:id="@+id/nav_home"
+            android:icon="@drawable/ic_menu_camera"
+            android:title="@string/menu_home" />
+        <item
+            android:id="@+id/nav_gallery"
+            android:icon="@drawable/ic_menu_gallery"
+            android:title="@string/menu_gallery" />
+        <item
+            android:id="@+id/nav_slideshow"
+            android:icon="@drawable/ic_menu_slideshow"
+            android:title="@string/menu_slideshow" />
+        <item
+            android:id="@+id/nav_data"
+            android:icon="@drawable/ic_launcher_foreground"
+            android:title="Data Cats" />
+        <item
+            android:id="@+id/nav_webView"
+            android:icon="@android:drawable/ic_menu_compass"
+            android:title="Web View" />
+        <item
+            android:id="@+id/nav_downloadfragment"
+            android:icon="@android:drawable/stat_sys_download_done"
+            android:title="DonwloadFragment" />
+        <item
+            android:id="@+id/nav_light"
+            android:icon="@drawable/ic_light"
+            android:title="Lighting" />
+        <item
+            android:id="@+id/nav_acc"
+            android:icon="@drawable/ic_acc"
+            android:title="Account" />
+        <item
+            android:id="@+id/nav_rec"
+            android:icon="@drawable/ic_rec"
+            android:title="AudioRecorder" />
+        <item
+            android:id="@+id/nav_profile"
+            android:icon="@drawable/ic_acc"
+            android:title="Profile" />
+        <item
+            android:id="@+id/nav_file"
+            android:icon="@drawable/ic_acc"
+            android:title="File" />
+        <item
+            android:id="@+id/nav_map"
+            android:icon="@drawable/ic_acc"
+            android:title="Map" />
+    </group>
+</menu>
